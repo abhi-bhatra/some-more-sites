@@ -1,0 +1,94 @@
+/*Style body by adding background image & set it to covers, add nice font family to our body element.*/
+
+/*style brands*/
+
+/*style navigation bars*/
+
+/*style jumbotron(padding,text-align)*/
+
+/*limit the width of icon section*/
+
+/*style icon section using bootstrap grid system*/
+
+/*style contact button*/
+
+/*style footer*/
+
+/*media query to change size of icons in small devices*/
+
+
+.logo{
+    float: left;
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+
+
+body {
+    background: url(http://freenaturestock.s3.amazonaws.com/232.jpg) center center no-repeat;
+    background-size: cover;
+    font-family: cursive;
+}
+
+.jumbotron {
+   background-color: rgba( 255, 255, 255, 0 ); 
+}
+
+.container {
+    background-color: rgba( 255, 255, 255, 0 );
+    text-align: center;
+    padding-top: 50px;
+}
+
+.bodyImage {
+    height: 150px;
+    margin-bottom: 7px;
+}
+
+.container {
+    color:rgba( 255, 255, 255, 0.55 );
+    font-weight: bold;
+}
+
+.jumbotron {
+    padding-top: 80px
+}
+h5{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.navbar{
+    background-color: rgba( 0, 0, 0, 0.4 );
+}
+.navbar li:hover{
+    background-color: rgba( 0, 0, 0, 0.856 );
+    border-bottom: 1px solid #55c38f;
+}
+.btn {
+  background-color: rgba( 51, 208, 161, 0.5 );
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: rgba( 11, 13, 11, 0.441 );
+    cursor: pointer;
+}
+.footer{
+margin-top: 20px;
+}
+.footer p{
+    background-color: rgba( 14, 16, 14, 0.441 );
+}
+@media(max-width: 768px){
+    .bodyImage{
+        height: 70px;
+        align-content: center;
+    }
+    .btn{
+        margin-left: 0px;
+        height: 20px;
+        font-size: 15px;
+        padding-bottom: 25px;
+    }
+}
